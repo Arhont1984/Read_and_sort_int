@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanner = new Scanner(new File("D:\\new_life\\JAVA\\IDEA\\100gb_sort_int\\src\\main\\resources\\числа.txt"));
+        Scanner scanner = new Scanner(new File("src/main/resources/числа.txt"));
         ArrayList<Integer> list = new ArrayList<Integer>();
         while (scanner.hasNext()) {
             list.add(scanner.nextInt());
